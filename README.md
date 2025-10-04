@@ -1,10 +1,77 @@
-# Flowchart Bitcoin v0.1
+# FLOWCHART BITCOIN V0.1
 
-<a href="" target="_parent"><img src="https://github.com/user-attachments/assets/b5c54272-018d-473d-b4a4-93446a29c362" width="20" alt="Open In Adobe Stock"/></a>
+[![Contoh Badgen](https://badgen.net/badge/Adobe%20Stock/View?color=d3d3d3&icon=https://raw.githubusercontent.com/under-project/logo/refs/heads/main/adobe-stock-icon.svg)](https://github.com/username/repository)
 
-[Deploy on Heroku](https://github.com/user-attachments/assets/b5c54272-018d-473d-b4a4-93446a29c362)
+# Process Overview
 
-# bitcoin original sources
+### 🚀 STARTUP PHASE
+- **Program Startup:** Eksekusi dimulai dari main entry point
+- **Initialize All Components:** Inisialisasi global variables dan subsystems
+- **Build System:** Kompilasi semua modul menjadi `bitcoin.exe`
+
+### 🗂 SERIALIZATION SYSTEM
+- **Data Formatting:** Konversi data structures ke/from binary format
+- **Network Serialization:** Format data untuk P2P messages dengan header
+- **Disk Serialization:** Format data untuk persistent storage
+- **Script Serialization:** Serialize script commands dan stack operations
+- **Transaction Serialization:** Convert `CTransaction` ke/from binary
+- **Block Serialization:** Convert `CBlock` ke/from binary untuk network/disk
+- **Chain Serialization:** Serialize blockchain index structures
+- **Mining Data Serialization:** Format block templates dan mining data
+- **Market Serialization:** Serialize products, reviews, reputation data
+- **IRC Message Serialization:** Format peer addresses untuk IRC bootstrap
+- **Wallet Serialization:** Serialize keys, transactions, address book
+
+### 🔐 CORE COMPONENTS
+- **Cryptographic System:** ECDSA keys, SHA256 hashing, digital signatures
+- **BigNum Arithmetic:** Perhitungan matematis untuk proof-of-work
+- **Base58 Encoding:** Konversi binary data ke format alamat Bitcoin
+- **Core Data Structures:** `CTransaction`, `CBlock`, `CBlockIndex`, `CTxIn`, `CTxOut`
+
+### 🗄️ DATA LAYER
+- **Database Layer:** Penyimpanan blockchain, wallet, addresses ke disk
+- **Database Storage:** Berkeley DB operations untuk semua persistent data
+- **Wallet System:** Management private keys, balance, transaction history
+
+### 🌐 NETWORK LAYER
+- **Network Protocol:** P2P communication, message handling, peer management
+- **IRC Bootstrap:** Discovery peer awal melalui IRC channel `#bitcoin`
+- **Message Processor:** Parsing dan routing incoming messages
+- **Peer Management:** Connection lifecycle, address management
+- **Connection Management:** Socket operations, incoming/outgoing connections
+
+### 🔄 BLOCKCHAIN ENGINE
+- **Core Blockchain Engine:** Main coordinator untuk semua blockchain operations
+- **Transaction Processing:** Validasi dan eksekusi transactions
+- **Transaction Validation:** Verify inputs, signatures, spending conditions
+- **Block Processing:** Verifikasi blocks dan proof-of-work
+- **Proof-of-Work Verification:** Check block hash meets difficulty target
+- **Chain Management:** Maintenance blockchain, reorganizations, orphan blocks
+- **Script Execution:** Bitcoin script language interpreter dengan `OP_CODES`
+
+### ⛏ MINING SYSTEM
+- **Mining Process:** CPU mining dengan proof-of-work algorithm
+- **POW Calculation:** Perhitungan SHA256 hashing untuk mining
+
+### 🧑‍💻 USER INTERFACE
+- **User Interface:** GUI untuk wallet management dan monitoring
+- **User Actions:** Send transactions, view balance, address book
+- **Send Transactions:** Create, sign, broadcast new transactions
+- **View Wallet:** Display balance, transaction history, addresses
+
+### 🛒 MARKETPLACE
+- **Marketplace System:** Product listings dan reputation management
+- **Reputation Management:** Trust system dengan atom propagation
+
+### ⚙️ RUNTIME OPERATIONS
+- **Runtime Loop:** Main event loop processing messages dan mining
+- **Shutdown Check:** Monitor exit conditions
+- **Cleanup & Exit:** Graceful shutdown dengan data persistence
+
+Semua proses terintegrasi dalam sistem real-time yang memproses transactions, blocks, dan network messages secara paralel dengan mining operations.
+
+
+# Bitcoin Original Sources
 
 archive of original bitcoin material
 
