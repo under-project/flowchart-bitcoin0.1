@@ -1,5 +1,7 @@
 # Flowchart Bitcoin v0.1
 
+<a href="" target="_parent"><img src="https://github.com/user-attachments/assets/b5c54272-018d-473d-b4a4-93446a29c362" alt="Open In Adobe Stock"/></a>
+
 # bitcoin original sources
 
 archive of original bitcoin material
