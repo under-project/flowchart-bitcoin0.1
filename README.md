@@ -9,19 +9,6 @@
 - **Initialize All Components:** Inisialisasi global variables dan subsystems
 - **Build System:** Kompilasi semua modul menjadi `bitcoin.exe`
 
-### 🗂 SERIALIZATION SYSTEM
-- **Data Formatting:** Konversi data structures ke/from binary format
-- **Network Serialization:** Format data untuk P2P messages dengan header
-- **Disk Serialization:** Format data untuk persistent storage
-- **Script Serialization:** Serialize script commands dan stack operations
-- **Transaction Serialization:** Convert `CTransaction` ke/from binary
-- **Block Serialization:** Convert `CBlock` ke/from binary untuk network/disk
-- **Chain Serialization:** Serialize blockchain index structures
-- **Mining Data Serialization:** Format block templates dan mining data
-- **Market Serialization:** Serialize products, reviews, reputation data
-- **IRC Message Serialization:** Format peer addresses untuk IRC bootstrap
-- **Wallet Serialization:** Serialize keys, transactions, address book
-
 ### 🔐 CORE COMPONENTS
 - **Cryptographic System:** ECDSA keys, SHA256 hashing, digital signatures
 - **BigNum Arithmetic:** Perhitungan matematis untuk proof-of-work
@@ -62,6 +49,19 @@
 ### 🛒 MARKETPLACE
 - **Marketplace System:** Product listings dan reputation management
 - **Reputation Management:** Trust system dengan atom propagation
+
+### 🗂 SERIALIZATION SYSTEM
+- **Data Formatting:** Konversi data structures ke/from binary format
+- **Network Serialization:** Format data untuk P2P messages dengan header
+- **Disk Serialization:** Format data untuk persistent storage
+- **Script Serialization:** Serialize script commands dan stack operations
+- **Transaction Serialization:** Convert `CTransaction` ke/from binary
+- **Block Serialization:** Convert `CBlock` ke/from binary untuk network/disk
+- **Chain Serialization:** Serialize blockchain index structures
+- **Mining Data Serialization:** Format block templates dan mining data
+- **Market Serialization:** Serialize products, reviews, reputation data
+- **IRC Message Serialization:** Format peer addresses untuk IRC bootstrap
+- **Wallet Serialization:** Serialize keys, transactions, address book
 
 ### ⚙️ RUNTIME OPERATIONS
 - **Runtime Loop:** Main event loop processing messages dan mining
