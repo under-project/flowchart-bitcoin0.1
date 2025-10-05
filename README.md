@@ -68,7 +68,7 @@
 - **Shutdown Check:** Monitor exit conditions
 - **Cleanup & Exit:** Graceful shutdown dengan data persistence
 
-Semua proses terintegrasi dalam sistem real-time yang memproses transactions, blocks, dan network messages secara paralel dengan mining operations.
+Semua proses terintegrasi secara real-time bekerja bersama dalam runtime loop yang kontinu. Memproses transactions, blocks, network messages, dan user interactions secara paralel dengan mining operations.
 
 
 # Bitcoin Original Sources
